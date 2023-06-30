@@ -20,7 +20,7 @@ module.exports = defineConfig({
   use: {
     baseURL: 'https://www.which.co.uk',
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
 
